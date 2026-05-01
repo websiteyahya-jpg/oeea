@@ -378,20 +378,6 @@ if (!reducedMotion) {
     });
 }
 
-// ===== CONTACT FORM =====
-// Submission via POST to send.php (handled server-side); we just show a sending state.
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        const btn = e.target.querySelector('button[type="submit"]');
-        if (btn) {
-            btn.innerHTML = '<span>Envoi en cours...</span><i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>';
-            btn.disabled = true;
-            btn.style.opacity = '0.85';
-        }
-    });
-}
-
 // ===== SMOOTH SCROLL =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
