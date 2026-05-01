@@ -379,18 +379,16 @@ if (!reducedMotion) {
 }
 
 // ===== CONTACT FORM =====
+// Submission via POST to send.php (handled server-side); we just show a sending state.
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = e.target.querySelector('button');
-        btn.innerHTML = '<span>Message envoye !</span><i class="fas fa-check"></i>';
-        btn.style.background = 'linear-gradient(135deg, #00a651, #008000)';
-        setTimeout(() => {
-            btn.innerHTML = '<span>Envoyer le message</span><i class="fas fa-paper-plane"></i>';
-            btn.style.background = '';
-            e.target.reset();
-        }, 3000);
+        const btn = e.target.querySelector('button[type="submit"]');
+        if (btn) {
+            btn.innerHTML = '<span>Envoi en cours...</span><i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>';
+            btn.disabled = true;
+            btn.style.opacity = '0.85';
+        }
     });
 }
 

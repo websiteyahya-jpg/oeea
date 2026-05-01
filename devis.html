@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demande de Devis - OIL & ENERGY ENGINEERING AFRICA</title>
     <meta name="description" content="Demandez un devis personnalisé pour votre projet industriel énergétique. Réponse sous 24h par un ingénieur OEEA.">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
@@ -74,7 +76,8 @@
             <div class="devis-grid">
                 <!-- Form -->
                 <div class="devis-form-card" data-animate="fade-up">
-                    <form class="devis-form" id="devisForm" novalidate>
+                    <form class="devis-form" id="devisForm" action="send.php" method="POST" novalidate>
+                        <input type="hidden" name="form_type" value="devis">
                         <!-- Step indicator -->
                         <div class="devis-progress">
                             <button type="button" class="devis-progress-step active" data-step-indicator="1"><span>1</span> Coordonnées</button>
@@ -90,37 +93,37 @@
                                 <legend><span class="devis-leg-num">01</span> Vos coordonnées</legend>
                                 <div class="devis-fields-grid">
                                     <div class="form-group">
-                                        <input type="text" id="d-firstname" required placeholder=" " autocomplete="given-name">
+                                        <input type="text" id="d-firstname" name="firstname" required placeholder=" " autocomplete="given-name">
                                         <label for="d-firstname">Prénom *</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" id="d-lastname" required placeholder=" " autocomplete="family-name">
+                                        <input type="text" id="d-lastname" name="lastname" required placeholder=" " autocomplete="family-name">
                                         <label for="d-lastname">Nom *</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" id="d-company" required placeholder=" " autocomplete="organization">
+                                        <input type="text" id="d-company" name="company" required placeholder=" " autocomplete="organization">
                                         <label for="d-company">Entreprise *</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" id="d-role" placeholder=" " autocomplete="organization-title">
+                                        <input type="text" id="d-role" name="role" placeholder=" " autocomplete="organization-title">
                                         <label for="d-role">Fonction</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" id="d-email" required placeholder=" " autocomplete="email">
+                                        <input type="email" id="d-email" name="email" required placeholder=" " autocomplete="email">
                                         <label for="d-email">Email *</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" id="d-phone" placeholder=" " autocomplete="tel">
+                                        <input type="tel" id="d-phone" name="phone" placeholder=" " autocomplete="tel">
                                         <label for="d-phone">Téléphone</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group form-group-full">
-                                        <input type="text" id="d-country" placeholder=" " autocomplete="country-name">
+                                        <input type="text" id="d-country" name="country" placeholder=" " autocomplete="country-name">
                                         <label for="d-country">Pays / ville</label>
                                         <span class="form-line"></span>
                                     </div>
@@ -140,7 +143,7 @@
                                 <legend><span class="devis-leg-num">02</span> Votre projet</legend>
                                 <div class="devis-fields-grid">
                                     <div class="form-group form-group-full has-select">
-                                        <select id="d-service" required>
+                                        <select id="d-service" name="service" required>
                                             <option value="" disabled selected></option>
                                             <option>Faisabilité, Étude &amp; Conception</option>
                                             <option>Étude de Performance</option>
@@ -153,7 +156,7 @@
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group form-group-full has-select">
-                                        <select id="d-sector" required>
+                                        <select id="d-sector" name="sector" required>
                                             <option value="" disabled selected></option>
                                             <option>Pétrole &amp; Gaz</option>
                                             <option>Industrie Manufacturière</option>
@@ -169,12 +172,12 @@
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group form-group-full">
-                                        <textarea id="d-desc" rows="5" required placeholder=" "></textarea>
+                                        <textarea id="d-desc" name="desc" rows="5" required placeholder=" "></textarea>
                                         <label for="d-desc">Décrivez votre projet *</label>
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group has-select">
-                                        <select id="d-budget">
+                                        <select id="d-budget" name="budget">
                                             <option value="" disabled selected></option>
                                             <option>&lt; 50 000 MAD</option>
                                             <option>50 000 - 200 000 MAD</option>
@@ -186,7 +189,7 @@
                                         <span class="form-line"></span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="date" id="d-deadline" placeholder=" ">
+                                        <input type="date" id="d-deadline" name="deadline" placeholder=" ">
                                         <label for="d-deadline" class="label-static">Échéance souhaitée</label>
                                         <span class="form-line"></span>
                                     </div>
@@ -210,6 +213,7 @@
                                 <legend><span class="devis-leg-num">03</span> Documents <span class="devis-leg-note">(optionnel)</span></legend>
                                 <label class="devis-upload" id="devisUpload">
                                     <input type="file" id="d-files" multiple aria-label="Joindre des fichiers">
+                                    <input type="hidden" name="filenames" id="d-filenames">
                                     <div class="devis-upload-inner">
                                         <div class="devis-upload-icon"><i class="fas fa-cloud-arrow-up" aria-hidden="true"></i></div>
                                         <span class="devis-upload-title">Glissez vos fichiers ici ou cliquez pour parcourir</span>
@@ -272,11 +276,11 @@
                                 <strong>+212 661 473 617</strong>
                             </div>
                         </a>
-                        <a href="mailto:Oilenergy025@gmail.com" class="devis-contact-item">
+                        <a href="mailto:contact@oeea.ma" class="devis-contact-item">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
                             <div>
                                 <span class="devis-contact-label">Email</span>
-                                <strong>Oilenergy025@gmail.com</strong>
+                                <strong>contact@oeea.ma</strong>
                             </div>
                         </a>
                         <div class="devis-contact-item">
@@ -325,7 +329,7 @@
                     <h4>Contact</h4>
                     <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 4 Rue Abou Ishaq Marouni, Casablanca</p>
                     <p><i class="fas fa-phone" aria-hidden="true"></i> +212 661 473 617</p>
-                    <p><i class="fas fa-envelope" aria-hidden="true"></i> Oilenergy025@gmail.com</p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> contact@oeea.ma</p>
                     <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Liberté 6 Extension Lot N°08, Dakar - Sénégal</p>
                     <p><i class="fas fa-phone" aria-hidden="true"></i> (+221) 77 150 26 36</p>
                 </div>
@@ -447,15 +451,19 @@
             });
 
             // File input handling
+            const fileNamesInput = document.getElementById('d-filenames');
             if (fileInput && fileList) {
                 fileInput.addEventListener('change', () => {
                     fileList.innerHTML = '';
+                    const names = [];
                     Array.from(fileInput.files).forEach(f => {
                         const chip = document.createElement('span');
                         chip.className = 'devis-file-chip';
                         chip.innerHTML = `<i class="fas fa-file" aria-hidden="true"></i> ${f.name}`;
                         fileList.appendChild(chip);
+                        names.push(f.name);
                     });
+                    if (fileNamesInput) fileNamesInput.value = names.join(', ');
                 });
             }
 
@@ -481,12 +489,12 @@
                 });
             }
 
-            // Submit handler (final step) — loading then redirect to merci.html
+            // Submit handler (final step) — validate consent then let the form POST to send.php
             form.addEventListener('submit', (e) => {
-                e.preventDefault();
                 const consent = document.getElementById('d-consent');
                 const consentWrap = form.querySelector('.devis-consent');
                 if (consent && !consent.checked) {
+                    e.preventDefault();
                     consentWrap && consentWrap.classList.add('invalid');
                     consent.focus();
                     return;
@@ -494,21 +502,12 @@
                 consentWrap && consentWrap.classList.remove('invalid');
 
                 const btn = form.querySelector('.devis-step[data-step="3"] button[type="submit"]');
-                if (!btn) return;
-
-                // Generate a référence code for the thank-you page
-                const ref = 'OEEA-' + Date.now().toString(36).toUpperCase().slice(-6);
-                try { sessionStorage.setItem('devisRef', ref); } catch (err) {}
-
-                // Loading state
-                btn.innerHTML = '<span>Envoi en cours...</span><i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>';
-                btn.disabled = true;
-                btn.style.opacity = '0.85';
-
-                // Redirect after short delay so user sees the loading feedback
-                setTimeout(() => {
-                    window.location.href = 'merci.html';
-                }, 700);
+                if (btn) {
+                    btn.innerHTML = '<span>Envoi en cours...</span><i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>';
+                    btn.disabled = true;
+                    btn.style.opacity = '0.85';
+                }
+                // The form submits naturally to send.php; no preventDefault.
             });
 
             // Init

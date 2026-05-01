@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OIL & ENERGY ENGINEERING AFRICA</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
@@ -617,7 +619,7 @@
                         <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
                         <div>
                             <h4>Email</h4>
-                            <p>Oilenergy025@gmail.com</p>
+                            <p>contact@oeea.ma</p>
                         </div>
                     </div>
                     <div class="contact-trust">
@@ -637,24 +639,25 @@
                 <div class="contact-form-wrapper" data-animate="fade-left">
                     <h3>Parlons de votre projet</h3>
                     <p>Décrivez brièvement vos besoins, nous revenons vers vous sous 24h.</p>
-                    <form class="contact-form" id="contactForm">
+                    <form class="contact-form" id="contactForm" action="send.php" method="POST">
+                        <input type="hidden" name="form_type" value="contact">
                         <div class="form-group">
-                            <input type="text" id="name" required placeholder=" " autocomplete="name">
+                            <input type="text" id="name" name="name" required placeholder=" " autocomplete="name">
                             <label for="name">Nom complet</label>
                             <span class="form-line"></span>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" required placeholder=" " autocomplete="email">
+                            <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
                             <label for="email">Email</label>
                             <span class="form-line"></span>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" required placeholder=" ">
+                            <input type="text" id="subject" name="subject" required placeholder=" ">
                             <label for="subject">Sujet</label>
                             <span class="form-line"></span>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" rows="4" required placeholder=" "></textarea>
+                            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
                             <label for="message">Message</label>
                             <span class="form-line"></span>
                         </div>
@@ -701,7 +704,7 @@
                     <h4>Contact</h4>
                     <p><i class="fas fa-map-marker-alt"></i> 4 Rue Abou Ishaq Marouni, Casablanca</p>
                     <p><i class="fas fa-phone"></i> +212 661 473 617</p>
-                    <p><i class="fas fa-envelope"></i> Oilenergy025@gmail.com</p>
+                    <p><i class="fas fa-envelope"></i> contact@oeea.ma</p>
                     <p><i class="fas fa-map-marker-alt"></i> Liberté 6 Extension Lot N°08, Dakar - Sénégal</p>
                     <p><i class="fas fa-phone"></i> (+221) 77 150 26 36</p>
                 </div>
