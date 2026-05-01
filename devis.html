@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Devis - OIL & ENERGY ENGINEERING AFRICA</title>
+    <meta name="description" content="Demandez un devis personnalisé pour votre projet industriel énergétique. Réponse sous 24h par un ingénieur OEEA.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="subpage">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-solid" aria-label="Navigation principale">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="OEEA - Retour à l'accueil">
+                <img src="https://i.postimg.cc/4NLdhFGz/Image-1-(11).png" alt="" class="nav-logo-img">
+                <div class="nav-logo-text">
+                    <span class="nav-logo-main">OIL &amp; ENERGY</span>
+                    <span class="nav-logo-sub">ENGINEERING AFRICA</span>
+                </div>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+                <a href="index.html#accueil" class="nav-link">Accueil</a>
+                <a href="index.html#apropos" class="nav-link">À Propos</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="index.html#secteurs" class="nav-link">Secteurs</a>
+                <a href="index.html#expertise" class="nav-link">Expertise</a>
+                <a href="index.html#partenaires" class="nav-link">Partenaires</a>
+                <a href="index.html#equipe" class="nav-link">Équipe</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+                <a href="devis.html" class="nav-drawer-cta active">
+                    <span>Demander un devis</span>
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+            <a href="devis.html" class="nav-cta active-cta">
+                <span>Devis</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+        <div class="subpage-hero-bg"></div>
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Fil d'Ariane">
+                <a href="index.html">Accueil</a>
+                <span class="breadcrumb-sep">/</span>
+                <span>Demande de devis</span>
+            </nav>
+            <h1 class="subpage-title">Demande de <span class="text-accent">Devis</span></h1>
+            <p class="subpage-subtitle">
+                Décrivez votre projet. Un de nos ingénieurs vous répond sous 24h avec une étude personnalisée
+                et un cadrage de mission.
+            </p>
+            <div class="devis-badges">
+                <span class="devis-badge"><i class="fas fa-clock" aria-hidden="true"></i> Réponse sous 24h</span>
+                <span class="devis-badge"><i class="fas fa-file-shield" aria-hidden="true"></i> NDA / Confidentialité</span>
+                <span class="devis-badge"><i class="fas fa-user-tie" aria-hidden="true"></i> Ingénieur dedie</span>
+                <span class="devis-badge"><i class="fas fa-circle-check" aria-hidden="true"></i> Sans engagement</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Devis form section -->
+    <section class="devis-section">
+        <div class="container">
+            <div class="devis-grid">
+                <!-- Form -->
+                <div class="devis-form-card" data-animate="fade-up">
+                    <form class="devis-form" id="devisForm" novalidate>
+                        <!-- Step indicator -->
+                        <div class="devis-progress">
+                            <button type="button" class="devis-progress-step active" data-step-indicator="1"><span>1</span> Coordonnées</button>
+                            <div class="devis-progress-line"></div>
+                            <button type="button" class="devis-progress-step" data-step-indicator="2"><span>2</span> Projet</button>
+                            <div class="devis-progress-line"></div>
+                            <button type="button" class="devis-progress-step" data-step-indicator="3"><span>3</span> Documents</button>
+                        </div>
+
+                        <!-- STEP 1 -->
+                        <div class="devis-step active" data-step="1">
+                            <fieldset class="devis-fieldset">
+                                <legend><span class="devis-leg-num">01</span> Vos coordonnées</legend>
+                                <div class="devis-fields-grid">
+                                    <div class="form-group">
+                                        <input type="text" id="d-firstname" required placeholder=" " autocomplete="given-name">
+                                        <label for="d-firstname">Prénom *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="d-lastname" required placeholder=" " autocomplete="family-name">
+                                        <label for="d-lastname">Nom *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="d-company" required placeholder=" " autocomplete="organization">
+                                        <label for="d-company">Entreprise *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="d-role" placeholder=" " autocomplete="organization-title">
+                                        <label for="d-role">Fonction</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" id="d-email" required placeholder=" " autocomplete="email">
+                                        <label for="d-email">Email *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" id="d-phone" placeholder=" " autocomplete="tel">
+                                        <label for="d-phone">Téléphone</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group form-group-full">
+                                        <input type="text" id="d-country" placeholder=" " autocomplete="country-name">
+                                        <label for="d-country">Pays / ville</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="devis-step-nav">
+                                <button type="button" class="btn btn-primary devis-next" data-magnetic>
+                                    <span>Suivant</span>
+                                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 2 -->
+                        <div class="devis-step" data-step="2">
+                            <fieldset class="devis-fieldset">
+                                <legend><span class="devis-leg-num">02</span> Votre projet</legend>
+                                <div class="devis-fields-grid">
+                                    <div class="form-group form-group-full has-select">
+                                        <select id="d-service" required>
+                                            <option value="" disabled selected></option>
+                                            <option>Faisabilité, Étude &amp; Conception</option>
+                                            <option>Étude de Performance</option>
+                                            <option>Assistance Opérationnelle</option>
+                                            <option>Maintenance &amp; Formation</option>
+                                            <option>Cahiers des Charges</option>
+                                            <option>Autre / plusieurs services</option>
+                                        </select>
+                                        <label for="d-service">Service concerné *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group form-group-full has-select">
+                                        <select id="d-sector" required>
+                                            <option value="" disabled selected></option>
+                                            <option>Pétrole &amp; Gaz</option>
+                                            <option>Industrie Manufacturière</option>
+                                            <option>Mines &amp; Carrières</option>
+                                            <option>Bâtiments &amp; Infrastructures</option>
+                                            <option>Industrie Chimique</option>
+                                            <option>Énergie</option>
+                                            <option>Agroalimentaire</option>
+                                            <option>Environnement</option>
+                                            <option>Ports &amp; Logistique</option>
+                                        </select>
+                                        <label for="d-sector">Secteur d'activité *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group form-group-full">
+                                        <textarea id="d-desc" rows="5" required placeholder=" "></textarea>
+                                        <label for="d-desc">Décrivez votre projet *</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group has-select">
+                                        <select id="d-budget">
+                                            <option value="" disabled selected></option>
+                                            <option>&lt; 50 000 MAD</option>
+                                            <option>50 000 - 200 000 MAD</option>
+                                            <option>200 000 - 1 000 000 MAD</option>
+                                            <option>&gt; 1 000 000 MAD</option>
+                                            <option>À discuter</option>
+                                        </select>
+                                        <label for="d-budget">Budget estimé</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="date" id="d-deadline" placeholder=" ">
+                                        <label for="d-deadline" class="label-static">Échéance souhaitée</label>
+                                        <span class="form-line"></span>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="devis-step-nav">
+                                <button type="button" class="btn btn-outline devis-prev">
+                                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                                    <span>Précédent</span>
+                                </button>
+                                <button type="button" class="btn btn-primary devis-next" data-magnetic>
+                                    <span>Suivant</span>
+                                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 3 -->
+                        <div class="devis-step" data-step="3">
+                            <fieldset class="devis-fieldset">
+                                <legend><span class="devis-leg-num">03</span> Documents <span class="devis-leg-note">(optionnel)</span></legend>
+                                <label class="devis-upload" id="devisUpload">
+                                    <input type="file" id="d-files" multiple aria-label="Joindre des fichiers">
+                                    <div class="devis-upload-inner">
+                                        <div class="devis-upload-icon"><i class="fas fa-cloud-arrow-up" aria-hidden="true"></i></div>
+                                        <span class="devis-upload-title">Glissez vos fichiers ici ou cliquez pour parcourir</span>
+                                        <small>PDF, DOCX, XLSX, DWG &mdash; 10 MB max / fichier</small>
+                                    </div>
+                                    <div class="devis-upload-files" id="devisUploadFiles"></div>
+                                </label>
+                            </fieldset>
+
+                            <div class="devis-consent">
+                                <label>
+                                    <input type="checkbox" required id="d-consent">
+                                    <span>J'accepte la <a href="#">politique de confidentialité</a> et le traitement de mes données par OEEA.</span>
+                                </label>
+                            </div>
+
+                            <div class="devis-step-nav">
+                                <button type="button" class="btn btn-outline devis-prev">
+                                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                                    <span>Précédent</span>
+                                </button>
+                                <button type="submit" class="btn btn-primary" data-magnetic>
+                                    <span>Envoyer ma demande</span>
+                                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <p class="devis-submit-note"><i class="fas fa-lock" aria-hidden="true"></i> Vos données restent confidentielles et ne sont jamais partagees.</p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="devis-sidebar">
+                    <div class="devis-side-card" data-animate="fade-up" data-delay="100">
+                        <h4><i class="fas fa-award" aria-hidden="true"></i> Pourquoi OEEA ?</h4>
+                        <ul class="devis-reasons">
+                            <li><span class="devis-reason-num">30+</span> ans d'expertise cumulée</li>
+                            <li><span class="devis-reason-num">9</span> secteurs couverts</li>
+                            <li><span class="devis-reason-num">6</span> certifications &amp; normes</li>
+                            <li><span class="devis-reason-num">5</span> partenaires majeurs</li>
+                        </ul>
+                    </div>
+
+                    <div class="devis-side-card" data-animate="fade-up" data-delay="160">
+                        <h4><i class="fas fa-route" aria-hidden="true"></i> Notre process</h4>
+                        <ol class="devis-steps">
+                            <li><strong>Réception</strong> &mdash; votre demande nous arrive immédiatement</li>
+                            <li><strong>Analyse</strong> &mdash; un ingénieur étudie votre besoin</li>
+                            <li><strong>Retour</strong> &mdash; réponse sous 24h ouvrées</li>
+                            <li><strong>Cadrage</strong> &mdash; rendez-vous et proposition chiffrée</li>
+                        </ol>
+                    </div>
+
+                    <div class="devis-side-card devis-side-contact" data-animate="fade-up" data-delay="220">
+                        <h4><i class="fas fa-headset" aria-hidden="true"></i> Contact direct</h4>
+                        <a href="tel:+212661473617" class="devis-contact-item">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <div>
+                                <span class="devis-contact-label">Téléphone</span>
+                                <strong>+212 661 473 617</strong>
+                            </div>
+                        </a>
+                        <a href="mailto:Oilenergy025@gmail.com" class="devis-contact-item">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <div>
+                                <span class="devis-contact-label">Email</span>
+                                <strong>Oilenergy025@gmail.com</strong>
+                            </div>
+                        </a>
+                        <div class="devis-contact-item">
+                            <i class="fas fa-location-dot" aria-hidden="true"></i>
+                            <div>
+                                <span class="devis-contact-label">Bureau</span>
+                                <strong>4 Rue Abou Ishaq Marouni, Casablanca</strong>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="https://i.postimg.cc/4NLdhFGz/Image-1-(11).png" alt="OEEA" class="footer-logo-img">
+                    <p>Bureau d'étude spécialisé dans l'analyse et la conception de projets industriels énergétiques &mdash; pétrole, gaz, énergie et industrie.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Téléphone"><i class="fas fa-phone" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="index.html#accueil">Accueil</a>
+                    <a href="index.html#apropos">À Propos</a>
+                    <a href="services.html">Services</a>
+                    <a href="index.html#secteurs">Secteurs</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <a href="services.html#faisabilite">Étude &amp; Conception</a>
+                    <a href="services.html#performance">Étude de Performance</a>
+                    <a href="services.html#assistance">Assistance Opérationnelle</a>
+                    <a href="services.html#maintenance">Maintenance &amp; Formation</a>
+                    <a href="services.html#cahiers">Cahiers des Charges</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 4 Rue Abou Ishaq Marouni, Casablanca</p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> +212 661 473 617</p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> Oilenergy025@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OIL &amp; ENERGY ENGINEERING AFRICA. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script>
+        (function() {
+            const form = document.getElementById('devisForm');
+            if (!form) return;
+
+            const steps = form.querySelectorAll('.devis-step');
+            const indicators = form.querySelectorAll('.devis-progress-step');
+            const lines = form.querySelectorAll('.devis-progress-line');
+            const nextBtns = form.querySelectorAll('.devis-next');
+            const prevBtns = form.querySelectorAll('.devis-prev');
+            const formCard = form.closest('.devis-form-card');
+            const totalSteps = steps.length;
+            let currentStep = 1;
+            let maxReached = 1;
+
+            const fileInput = document.getElementById('d-files');
+            const fileList = document.getElementById('devisUploadFiles');
+            const uploadLabel = document.getElementById('devisUpload');
+
+            function updateIndicators() {
+                indicators.forEach((ind, i) => {
+                    const n = i + 1;
+                    ind.classList.remove('active', 'completed');
+                    if (n < currentStep) ind.classList.add('completed');
+                    else if (n === currentStep) ind.classList.add('active');
+                    ind.dataset.locked = (n > maxReached) ? 'true' : 'false';
+                });
+                lines.forEach((line, i) => {
+                    line.classList.toggle('completed', i < currentStep - 1);
+                });
+            }
+
+            function showStep(step, { scroll = true } = {}) {
+                steps.forEach(s => s.classList.remove('active'));
+                const target = form.querySelector(`.devis-step[data-step="${step}"]`);
+                if (!target) return;
+                target.classList.add('active');
+                currentStep = step;
+                if (step > maxReached) maxReached = step;
+                updateIndicators();
+                if (scroll && formCard) {
+                    const rect = formCard.getBoundingClientRect();
+                    if (rect.top < 80 || rect.top > window.innerHeight * 0.3) {
+                        window.scrollTo({
+                            top: window.scrollY + rect.top - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+                // Focus first field of new step
+                const firstField = target.querySelector('input, select, textarea');
+                if (firstField) setTimeout(() => firstField.focus({ preventScroll: true }), 300);
+            }
+
+            function validateStep(step) {
+                const stepEl = form.querySelector(`.devis-step[data-step="${step}"]`);
+                if (!stepEl) return true;
+                const requiredFields = stepEl.querySelectorAll('[required]');
+                let valid = true;
+                let firstInvalid = null;
+                requiredFields.forEach(field => {
+                    let isInvalid = false;
+                    const value = (field.value || '').trim();
+                    if (!value) isInvalid = true;
+                    else if (field.type === 'email' && !field.checkValidity()) isInvalid = true;
+                    field.classList.toggle('invalid', isInvalid);
+                    if (isInvalid) {
+                        valid = false;
+                        if (!firstInvalid) firstInvalid = field;
+                    }
+                });
+                if (firstInvalid) firstInvalid.focus();
+                return valid;
+            }
+
+            // Clear invalid state as user types
+            form.addEventListener('input', (e) => {
+                if (e.target.classList.contains('invalid')) {
+                    e.target.classList.remove('invalid');
+                }
+            });
+            form.addEventListener('change', (e) => {
+                if (e.target.classList.contains('invalid')) {
+                    e.target.classList.remove('invalid');
+                }
+            });
+
+            nextBtns.forEach(btn => btn.addEventListener('click', () => {
+                if (validateStep(currentStep) && currentStep < totalSteps) {
+                    showStep(currentStep + 1);
+                }
+            }));
+
+            prevBtns.forEach(btn => btn.addEventListener('click', () => {
+                if (currentStep > 1) showStep(currentStep - 1);
+            }));
+
+            // Progress indicator click - jump to any reached step
+            indicators.forEach((ind, i) => {
+                ind.addEventListener('click', () => {
+                    const target = i + 1;
+                    if (target <= maxReached) showStep(target);
+                });
+            });
+
+            // File input handling
+            if (fileInput && fileList) {
+                fileInput.addEventListener('change', () => {
+                    fileList.innerHTML = '';
+                    Array.from(fileInput.files).forEach(f => {
+                        const chip = document.createElement('span');
+                        chip.className = 'devis-file-chip';
+                        chip.innerHTML = `<i class="fas fa-file" aria-hidden="true"></i> ${f.name}`;
+                        fileList.appendChild(chip);
+                    });
+                });
+            }
+
+            // Drag-and-drop visual
+            if (uploadLabel) {
+                ['dragenter', 'dragover'].forEach(evt =>
+                    uploadLabel.addEventListener(evt, (e) => {
+                        e.preventDefault();
+                        uploadLabel.classList.add('dragging');
+                    })
+                );
+                ['dragleave', 'drop'].forEach(evt =>
+                    uploadLabel.addEventListener(evt, (e) => {
+                        e.preventDefault();
+                        uploadLabel.classList.remove('dragging');
+                    })
+                );
+                uploadLabel.addEventListener('drop', (e) => {
+                    if (e.dataTransfer && e.dataTransfer.files && fileInput) {
+                        fileInput.files = e.dataTransfer.files;
+                        fileInput.dispatchEvent(new Event('change'));
+                    }
+                });
+            }
+
+            // Submit handler (final step) — loading then redirect to merci.html
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const consent = document.getElementById('d-consent');
+                const consentWrap = form.querySelector('.devis-consent');
+                if (consent && !consent.checked) {
+                    consentWrap && consentWrap.classList.add('invalid');
+                    consent.focus();
+                    return;
+                }
+                consentWrap && consentWrap.classList.remove('invalid');
+
+                const btn = form.querySelector('.devis-step[data-step="3"] button[type="submit"]');
+                if (!btn) return;
+
+                // Generate a référence code for the thank-you page
+                const ref = 'OEEA-' + Date.now().toString(36).toUpperCase().slice(-6);
+                try { sessionStorage.setItem('devisRef', ref); } catch (err) {}
+
+                // Loading state
+                btn.innerHTML = '<span>Envoi en cours...</span><i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>';
+                btn.disabled = true;
+                btn.style.opacity = '0.85';
+
+                // Redirect after short delay so user sees the loading feedback
+                setTimeout(() => {
+                    window.location.href = 'merci.html';
+                }, 700);
+            });
+
+            // Init
+            updateIndicators();
+        })();
+    </script>
+</body>
+</html>

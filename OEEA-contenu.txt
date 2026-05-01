@@ -1,0 +1,858 @@
+========================================================================
+SITE WEB OEEA — OIL & ENERGY ENGINEERING AFRICA
+Contenu texte complet (5 pages)
+========================================================================
+
+
+
+========================================================================
+PAGE 1 : ACCUEIL (index.html)
+========================================================================
+
+--- PRELOADER (animation de chargement) ---
+Logo: OEEA
+Titre: OIL & ENERGY
+Sous-titre: ENGINEERING AFRICA
+Tagline: Bureau d'Etude Technique & Operationnel
+
+
+--- HEADER / NAVIGATION ---
+Logo: OEEA — OIL & ENERGY / ENGINEERING AFRICA
+Liens de navigation:
+  • Accueil
+  • A Propos
+  • Services
+  • Secteurs
+  • Expertise
+  • Partenaires
+  • Equipe
+  • Contact
+Bouton CTA (droite): Devis
+
+
+--- SECTION 1 : HERO (accueil) ---
+Portes fermees (intro visuelle):
+  • Porte gauche: logo OEEA grave
+  • Porte droite: "OIL & ENERGY / ENGINEERING AFRICA" grave
+
+Contenu revele apres scroll (ouverture des portes):
+Titre: OIL & ENERGY ENGINEERING AFRICA
+Slogan: Les ameliorations techniques et operationnelles des infrastructures
+        energetiques sont decisives pour un avenir sur, durable et securise
+Boutons:
+  • Decouvrir notre expertise (bouton principal vert)
+  • Demander un devis (bouton secondaire)
+Statistiques:
+  • 9 Secteurs
+  • 5 Services
+  • 5 Partenaires
+
+
+--- SECTION 2 : A PROPOS DE NOTRE ENTREPRISE ---
+Tag: Qui sommes-nous
+Titre: A Propos de Notre Entreprise
+
+Visuel (image plans industriels) avec badges:
+  • Badge annee: 2025 — Annee de creation
+  • Badge localisation: Casablanca · Maroc
+
+Eyebrow: Bureau d'etude technique & operationnel
+Heading: L'ingenierie energetique, avec rigueur et responsabilite.
+
+Description:
+OEEA est un bureau d'etude specialise dans l'analyse et la conception
+technique et operationnelle de projets industriels energetiques —
+principalement dans le petrole & gaz, l'industrie et l'energie.
+
+Points cles:
+  • Etudes de faisabilite technique & economique
+  • Conception, suivi de chantier, demarrage operationnel
+  • Conformite reglementaire et optimisation HSE
+
+Ribbon de statistiques:
+  • 30+ Ans d'experience
+  • 9 Secteurs
+  • 6 Certifications
+  • 5 Partenaires
+
+Certifications & Normes:
+  ISO 9001 · ISO 14001 · ISO 4500 · OHSAS 18001 · API · ASME
+
+Carte "Notre Mission":
+  • Etudes de faisabilite et conception
+  • Etudes techniques et reglementaires
+  • Dossier d'execution
+  • Suivi de chantier
+  • Conseil et optimisation
+
+Carte "Notre Vision":
+  • Conception et ingenierie avancee
+  • Faisabilite et optimisation
+  • Conformite et reglementations
+  • Transition durable et innovation
+  • Conduite et coordination
+
+Nos Valeurs (5 cartes):
+  1. Engagement — Implication totale pour la mission
+  2. Integrite & Ethique — Transparence et honnetete dans les actions
+  3. Innovation — Volonte de creer, de tester et d'avancer
+  4. Respect — Importance donnee a l'humain et a l'inclusion
+  5. Responsabilite — Responsabilite sociale et environnementale
+
+
+--- SECTION 3 : NOS SERVICES ---
+Tag: Ce que nous proposons
+Titre: Nos Services
+
+Carte 01 (featured — grande):
+  Service 01 — Faisabilite, Etude & Conception
+  Description: Faisabilite, etude, conception et suivi de realisation de
+  tous les projets industriels energetiques — du cahier initial au
+  demarrage operationnel.
+  CTA: En savoir plus
+
+Carte 02:
+  Service 02 — Etude de Performance
+  Description: Analyse des performances et proposition de solutions
+  d'amelioration.
+  CTA: En savoir plus
+
+Carte 03:
+  Service 03 — Assistance Operationnelle
+  Description: Demarrage et mise en place des procedures des nouvelles
+  installations.
+  CTA: En savoir plus
+
+Carte 04:
+  Service 04 — Maintenance & Formation
+  Description: Procedures de maintenance et formation du personnel
+  technique.
+  CTA: En savoir plus
+
+Carte 05:
+  Service 05 — Cahiers des Charges
+  Description: Redaction des cahiers des charges pour nouvelles
+  installations et materiels.
+  CTA: En savoir plus
+
+
+--- SECTION 4 : SECTEURS D'ACTIVITE ---
+Tag: Nos domaines d'intervention
+Titre: Secteurs d'Activite
+
+9 cartes (chacune avec CTA "Decouvrir"):
+  1. Industrie Manufacturiere
+  2. Petrole & Gaz
+  3. Mines & Carrieres
+  4. Batiments & Infrastructures
+  5. Industrie Chimique
+  6. Energie
+  7. Agroalimentaire
+  8. Environnement
+  9. Ports & Logistique
+
+
+--- SECTION 5 : NOTRE EXPERTISE ---
+Tag: Competences techniques
+Titre: Notre Expertise
+
+Domaines techniques (9):
+  • Process & Piping
+  • Genie Civil & VRD
+  • Charpente Metallique
+  • Electricite & Instrumentation
+  • HSE & Environnement
+  • Gestion de projets
+  • Automatisme & Controle
+  • Mecanique & Tuyauterie
+  • Energies Renouvelables
+
+Outils utilises:
+  AutoCAD · Revit · PDMS · SmartPlant · Aspen HYSYS ·
+  PRIMAVERA · MS Project · ETAP · Caesar II
+
+Normes & Standards:
+  API · ASME · DIN · NF · EN · ISO · NFPA · ATEX · SEVESO
+
+
+--- SECTION 6 : PARTENAIRES ---
+Tag: Nos references
+Titre: Nos Partenaires
+
+5 partenaires majeurs (carousel defilant):
+  • Partenaire 1
+  • Partenaire 2
+  • Partenaire 3
+  • Partenaire 4
+  • Partenaire 5
+
+
+--- SECTION 7 : EQUIPE ---
+Tag: L'homme derriere l'entreprise
+Titre: Notre Equipe
+
+Carte fondateur:
+  Portrait avec badge "30+ ans d'experience"
+
+  Citation:
+  « Les infrastructures energetiques exigent une ingenierie rigoureuse
+  et humaine. Notre mission conjugue excellence technique et
+  responsabilite. »
+
+  Nom: RAUCHDI Abderrahim
+  Role: Fondateur & Directeur General
+
+  Parcours:
+  • Ex Directeur General de CEC
+  • Ex Directeur des operations Gaz Shell Du Maroc
+
+  Liens sociaux: LinkedIn · Email
+
+
+--- SECTION 8 : CONTACT ---
+Tag: Discutons de votre projet
+Titre: Contactez-Nous
+
+Cartes info:
+  • Adresse: 4 Rue Abou Ishaq Marouni, Maarif — Casablanca, Maroc
+  • Telephone: +212 661 473 617
+  • Email: Oilenergy025@gmail.com
+
+Signaux de confiance:
+  • Reponse sous 24h
+  • Confidentialite garantie
+  • ISO 9001
+
+Carte Google Maps (localisation bureau Casablanca)
+
+Formulaire de contact:
+  Titre: Parlons de votre projet
+  Sous-titre: Decrivez brievement vos besoins, nous revenons vers vous
+              sous 24h.
+  Champs:
+    • Nom complet
+    • Email
+    • Sujet
+    • Message
+  Bouton: Envoyer le message
+
+
+--- FOOTER ---
+Logo: OEEA
+Description: Bureau d'etude specialise dans l'analyse et la conception de
+projets industriels energetiques — petrole, gaz, energie et industrie.
+
+Reseaux sociaux: LinkedIn · Email · Telephone
+
+Colonne Navigation:
+  • Accueil
+  • A Propos
+  • Services
+  • Secteurs
+  • Contact
+
+Colonne Services:
+  • Etude & Conception
+  • Etude de Performance
+  • Assistance Operationnelle
+  • Maintenance & Formation
+  • Cahiers des Charges
+
+Colonne Contact:
+  • 4 Rue Abou Ishaq Marouni, Casablanca
+  • +212 661 473 617
+  • Oilenergy025@gmail.com
+
+Copyright: © 2025 OIL & ENERGY ENGINEERING AFRICA. Tous droits reserves.
+
+
+
+========================================================================
+PAGE 2 : SERVICES (services.html)
+========================================================================
+
+--- HEADER ---
+(identique a la page accueil, liens internes vers sections de l'accueil)
+
+
+--- HERO SOUS-PAGE ---
+Fil d'Ariane: Accueil / Services
+Titre: Nos Services
+Sous-titre: Cinq domaines d'intervention pour accompagner vos projets
+            industriels energetiques — de la faisabilite a la
+            maintenance operationnelle.
+
+Ancres rapides (pills):
+  • 01 Etude & Conception
+  • 02 Performance
+  • 03 Assistance
+  • 04 Maintenance
+  • 05 Cahiers des charges
+
+
+--- FICHE SERVICE 01 : FAISABILITE, ETUDE & CONCEPTION ---
+Tag: Service 01
+Titre: Faisabilite, Etude & Conception
+Description: De la definition du besoin au demarrage operationnel, nos
+equipes pilotent l'ensemble du cycle d'etude pour tous projets
+industriels energetiques.
+
+Ce que nous faisons:
+  • Etudes de faisabilite technique et economique
+  • Conception preliminaire (FEED) et detaillee (EPC)
+  • Modelisation 3D et integration site
+  • Analyses HAZOP, HAZID et safety studies
+  • Suivi de realisation et reception
+
+Methodologie:
+  1. Cadrage — comprehension du besoin et contraintes
+  2. Etude — faisabilite, conception, specifications
+  3. Validation — revue technique et reglementaire
+  4. Execution — suivi de realisation jusqu'au demarrage
+
+Livrables:
+  Rapport de faisabilite · P&ID · Plans 3D ·
+  Dossier d'execution · Rapports HSE
+
+Boutons: Demander un devis / Service suivant
+
+
+--- FICHE SERVICE 02 : ETUDE DE PERFORMANCE ---
+Tag: Service 02
+Titre: Etude de Performance
+Description: Diagnostic et optimisation des performances d'installations
+existantes — rendement energetique, fiabilite operationnelle,
+productivite.
+
+Ce que nous faisons:
+  • Audit de performance technique et energetique
+  • Analyse des goulots d'etranglement
+  • Benchmarking selon standards API / ASME / ISO
+  • Proposition de plans d'amelioration chiffres
+  • Suivi de la mise en oeuvre et mesure d'impact
+
+Methodologie:
+  1. Collecte — donnees terrain et historiques
+  2. Analyse — modelisation et diagnostic
+  3. Recommandations — plan d'action priorise
+  4. Mesure — KPIs avant / apres
+
+Livrables:
+  Rapport d'audit · Plan d'action · KPIs & dashboard · ROI estime
+
+Boutons: Demander un devis / Service suivant
+
+
+--- FICHE SERVICE 03 : ASSISTANCE OPERATIONNELLE ---
+Tag: Service 03
+Titre: Assistance Operationnelle
+Description: Accompagnement dans le demarrage, la mise en service et la
+stabilisation de vos nouvelles installations industrielles.
+
+Ce que nous faisons:
+  • Assistance au demarrage (commissioning)
+  • Redaction et deploiement de procedures operationnelles
+  • Formation des equipes operateurs
+  • Gestion des premiers incidents et retour d'experience
+  • Support en phase de montee en charge
+
+Methodologie:
+  1. Preparation — procedures et check-lists
+  2. Demarrage — assistance H24 sur site
+  3. Stabilisation — tuning et ajustements
+  4. Transfert — documentation et passation
+
+Livrables:
+  Procedures operationnelles · Plan de demarrage ·
+  Manuels d'exploitation · Rapport de commissioning
+
+Boutons: Demander un devis / Service suivant
+
+
+--- FICHE SERVICE 04 : MAINTENANCE & FORMATION ---
+Tag: Service 04
+Titre: Maintenance & Formation
+Description: Structuration de la maintenance preventive, corrective et
+predictive ainsi que la montee en competences de vos equipes techniques.
+
+Ce que nous faisons:
+  • Plans de maintenance preventive (PMP)
+  • Strategie de maintenance predictive (IoT, vibrations)
+  • Gestion des pieces de rechange et stocks
+  • Formation technique et HSE du personnel
+  • Mise en place d'indicateurs de fiabilite
+
+Methodologie:
+  1. Diagnostic — etat des lieux des equipements
+  2. Strategie — choix preventif / predictif
+  3. Deploiement — procedures et outils
+  4. Formation — transfert de competences
+
+Livrables:
+  Plan de maintenance · Catalogue pieces ·
+  Modules de formation · Dashboard fiabilite
+
+Boutons: Demander un devis / Service suivant
+
+
+--- FICHE SERVICE 05 : CAHIERS DES CHARGES ---
+Tag: Service 05
+Titre: Cahiers des Charges
+Description: Redaction de cahiers des charges rigoureux pour nouvelles
+installations ou achats d'equipements strategiques — specifications
+techniques, reglementaires et commerciales.
+
+Ce que nous faisons:
+  • Specifications techniques (STF, STP)
+  • Criteres de selection fournisseurs
+  • Analyses techniques des offres recues
+  • Negociation et arbitrage technique
+  • Suivi de la conformite contractuelle
+
+Methodologie:
+  1. Besoins — expression formelle et mesurable
+  2. Specifications — techniques et reglementaires
+  3. Consultation — marche et short-list
+  4. Decision — grille d'evaluation multi-criteres
+
+Livrables:
+  Cahier des charges · Grille d'evaluation ·
+  Rapport d'analyse d'offres · Contrat technique
+
+Boutons: Demander un devis / Retour en haut
+
+
+--- CTA FINAL ---
+Titre: Un projet en tete ?
+Sous-titre: Parlons-en. Reponse sous 24h par un de nos ingenieurs.
+Boutons: Demander un devis / Retour a l'accueil
+
+
+--- FOOTER ---
+(identique a la page accueil)
+
+
+
+========================================================================
+PAGE 3 : SECTEURS (secteurs.html)
+========================================================================
+
+--- HEADER ---
+(identique aux autres pages)
+
+
+--- HERO SOUS-PAGE ---
+Fil d'Ariane: Accueil / Secteurs
+Titre: Secteurs d'Activite
+Sous-titre: Neuf domaines d'intervention, un seul exigeant standard —
+            OEEA accompagne vos projets industriels, du petrole & gaz
+            a l'environnement.
+
+Ancres rapides:
+  01 Industrie · 02 Petrole & Gaz · 03 Mines · 04 Batiments ·
+  05 Chimie · 06 Energie · 07 Agroalimentaire · 08 Environnement ·
+  09 Ports & Logistique
+
+
+--- FICHE SECTEUR 01 : INDUSTRIE MANUFACTURIERE ---
+Tag: Secteur 01
+Titre: Industrie Manufacturiere
+Description: Conception, automatisation et optimisation de lignes de
+production, ateliers et unites de fabrication dans divers secteurs
+industriels.
+
+Nos interventions:
+  • Etudes et conception de lignes de production
+  • Automatisation de process industriels
+  • Audit et optimisation OEE
+  • Integration de robotique et convoyage
+  • Conception d'ateliers modulaires
+
+Projets types:
+  • Usines de fabrication mecanique
+  • Lignes d'assemblage automatisees
+  • Ateliers de production haute cadence
+  • Unites de conditionnement
+  • Revamping d'installations existantes
+
+Services mobilises: Etude & conception · Performance · Maintenance
+
+
+--- FICHE SECTEUR 02 : PETROLE & GAZ ---
+Tag: Secteur 02
+Titre: Petrole & Gaz
+Description: Coeur de metier d'OEEA — analyse, conception et optimisation
+d'infrastructures petrolieres et gazieres en amont et aval.
+
+Nos interventions:
+  • Depots petroliers et stations-service
+  • Unites de stockage et distribution
+  • Reseaux de canalisation process et utilites
+  • Installations GPL et GNL
+  • Systemes de securite et incendie
+
+Projets types:
+  • Depots carburant > 50 000 m3
+  • Stations-service high-flow
+  • Pipelines et reseaux de transfert
+  • Unites de stockage GPL sous pression
+  • Terminaux portuaires petroliers
+
+Services mobilises: Etude & conception · Performance ·
+                     Assistance operationnelle · Cahiers des charges
+
+
+--- FICHE SECTEUR 03 : MINES & CARRIERES ---
+Tag: Secteur 03
+Titre: Mines & Carrieres
+Description: Conception et suivi des installations d'extraction, de
+traitement mineral et de logistique minerale associee.
+
+Nos interventions:
+  • Usines de traitement minier
+  • Systemes de convoyage et manutention
+  • Stockage en silos, domes, halls couverts
+  • Equipements de broyage et criblage
+  • Amenagement integral du site minier
+
+Projets types:
+  • Usines de traitement de phosphate
+  • Stations de concassage mobiles/fixes
+  • Convoyeurs miniers longue distance
+  • Silos de stockage materiaux
+  • Plateformes de chargement trains
+
+Services mobilises: Etude & conception · Performance · Maintenance
+
+
+--- FICHE SECTEUR 04 : BATIMENTS & INFRASTRUCTURES ---
+Tag: Secteur 04
+Titre: Batiments & Infrastructures
+Description: Genie civil, VRD et infrastructures techniques pour sites
+industriels, batiments tertiaires et ouvrages speciaux.
+
+Nos interventions:
+  • Genie civil des fondations et structures
+  • VRD (voirie, reseaux divers)
+  • Charpente metallique
+  • Amenagement de sites industriels
+  • Batiments techniques (postes, ateliers)
+
+Projets types:
+  • Postes de transformation electrique
+  • Batiments administratifs industriels
+  • Plateformes techniques > 10 000 m2
+  • Voiries lourde et legere
+  • Reseaux eaux et assainissement site
+
+Services mobilises: Etude & conception · Cahiers des charges
+
+
+--- FICHE SECTEUR 05 : INDUSTRIE CHIMIQUE ---
+Tag: Secteur 05
+Titre: Industrie Chimique
+Description: Expertise des procedes chimiques, de la conception a la mise
+en service, avec un focus fort sur la securite HAZOP et la conformite
+SEVESO.
+
+Nos interventions:
+  • Conception d'unites de procedes
+  • Etudes HAZOP, HAZID, LOPA
+  • Selection d'equipements chaudronnes
+  • Reseaux de fluides process et utilites
+  • Mise en conformite SEVESO
+
+Projets types:
+  • Unites de production chimique fine
+  • Reacteurs haute pression
+  • Installations de stockage chimique
+  • Mise aux normes SEVESO seuil haut
+  • Etudes de dangers (EDD)
+
+Services mobilises: Etude & conception · Assistance operationnelle ·
+                     Cahiers des charges
+
+
+--- FICHE SECTEUR 06 : ENERGIE ---
+Tag: Secteur 06
+Titre: Energie
+Description: Transition energetique, production et distribution —
+incluant energies renouvelables, hybridation et efficacite energetique.
+
+Nos interventions:
+  • Centrales thermiques et hybrides
+  • Parcs solaires photovoltaiques
+  • Systemes de stockage d'energie
+  • Postes electriques haute tension
+  • Efficacite energetique et cogeneration
+
+Projets types:
+  • Centrales solaires > 50 MW
+  • Postes HT/MT 60 kV
+  • Unites de cogeneration gaz
+  • Systemes de stockage batteries
+  • Reseaux micro-grid industriels
+
+Services mobilises: Etude & conception · Performance · Maintenance
+
+
+--- FICHE SECTEUR 07 : AGROALIMENTAIRE ---
+Tag: Secteur 07
+Titre: Agroalimentaire
+Description: Conception hygienique et efficace d'unites de transformation
+alimentaire, respect des normes internationales HACCP et IFS.
+
+Nos interventions:
+  • Lignes de conditionnement et mise en bouteille
+  • Unites de stockage froid et conservation
+  • Systemes CIP et NEP
+  • Process thermiques (pasteurisation, sterilisation)
+  • Mise en conformite HACCP / IFS
+
+Projets types:
+  • Usines de transformation laitiere
+  • Lignes d'embouteillage haute cadence
+  • Entrepots frigorifiques > 5000 m2
+  • Unites de conditionnement agroalimentaire
+  • Ateliers de decoupe et transformation
+
+Services mobilises: Etude & conception · Assistance operationnelle ·
+                     Cahiers des charges
+
+
+--- FICHE SECTEUR 08 : ENVIRONNEMENT ---
+Tag: Secteur 08
+Titre: Environnement
+Description: Solutions techniques pour le traitement des eaux, la gestion
+des dechets et la decarbonation des sites industriels.
+
+Nos interventions:
+  • Stations de traitement d'eaux industrielles (STEP)
+  • Unites de traitement des dechets
+  • Systemes de depoussierage et filtration
+  • Audit environnemental et decarbonation
+  • Mise en conformite reglementaire ICPE
+
+Projets types:
+  • STEP industrielles > 10 000 m3/j
+  • Unites de valorisation energetique des dechets
+  • Systemes de filtration air industriel
+  • Audits decarbonation
+  • Plans de gestion environnementale
+
+Services mobilises: Etude & conception · Performance ·
+                     Cahiers des charges
+
+
+--- FICHE SECTEUR 09 : PORTS & LOGISTIQUE ---
+Tag: Secteur 09
+Titre: Ports & Logistique
+Description: Amenagement de terminaux portuaires, zones logistiques et
+infrastructures de stockage vrac liquide et solide.
+
+Nos interventions:
+  • Terminaux petroliers et gaziers portuaires
+  • Systemes de manutention vrac
+  • Entrepots et zones de stockage
+  • Reseaux de transfert liquide / gaz
+  • Quais et appontements techniques
+
+Projets types:
+  • Terminaux petroliers > 200 000 m3
+  • Appontements GPL
+  • Zones logistiques industrielles > 50 000 m2
+  • Systemes de transfert vrac solide
+  • Raccordements pipelines port / depot
+
+Services mobilises: Etude & conception · Assistance operationnelle ·
+                     Cahiers des charges
+
+
+--- CTA FINAL ---
+Titre: Votre secteur n'est pas liste ?
+Sous-titre: Parlons-en. Nos ingenieurs adaptent l'expertise OEEA a votre
+            contexte specifique.
+Boutons: Demander un devis / Retour a l'accueil
+
+
+--- FOOTER ---
+(avec colonne "Secteurs" : Petrole & Gaz · Energie · Industrie ·
+ Chimie · Environnement)
+
+
+
+========================================================================
+PAGE 4 : DEVIS (devis.html)
+========================================================================
+
+--- HEADER ---
+(identique aux autres pages)
+
+
+--- HERO SOUS-PAGE ---
+Fil d'Ariane: Accueil / Demande de devis
+Titre: Demande de Devis
+Sous-titre: Decrivez votre projet. Un de nos ingenieurs vous repond sous
+            24h avec une etude personnalisee et un cadrage de mission.
+
+Badges de confiance:
+  • Reponse sous 24h
+  • NDA / Confidentialite
+  • Ingenieur dedie
+  • Sans engagement
+
+
+--- FORMULAIRE MULTI-ETAPES ---
+
+Indicateur de progression:
+  [1] Coordonnees  →  [2] Projet  →  [3] Documents
+
+ETAPE 01 — VOS COORDONNEES
+Champs:
+  • Prenom *
+  • Nom *
+  • Entreprise *
+  • Fonction
+  • Email *
+  • Telephone
+  • Pays / ville
+Bouton: Suivant
+
+ETAPE 02 — VOTRE PROJET
+Champs:
+  • Service concerne * (selecteur: 5 services + Autre)
+  • Secteur d'activite * (selecteur: 9 secteurs)
+  • Decrivez votre projet * (zone de texte)
+  • Budget estime (selecteur: < 50k MAD / 50-200k / 200k-1M / > 1M /
+                                A discuter)
+  • Echeance souhaitee (date picker)
+Boutons: Precedent / Suivant
+
+ETAPE 03 — DOCUMENTS (optionnel)
+Zone de depot de fichiers:
+  Titre: Glissez vos fichiers ici ou cliquez pour parcourir
+  Formats acceptes: PDF, DOCX, XLSX, DWG — 10 MB max / fichier
+
+Consentement:
+  Case a cocher: J'accepte la politique de confidentialite et le
+                 traitement de mes donnees par OEEA.
+
+Boutons: Precedent / Envoyer ma demande
+Note: Vos donnees restent confidentielles et ne sont jamais partagees.
+
+
+--- SIDEBAR LATERALE ---
+
+Carte 1 — Pourquoi OEEA ?
+  • 30+ ans d'expertise cumulee
+  • 9 secteurs couverts
+  • 6 certifications & normes
+  • 5 partenaires majeurs
+
+Carte 2 — Notre process
+  1. Reception — votre demande nous arrive immediatement
+  2. Analyse — un ingenieur etudie votre besoin
+  3. Retour — reponse sous 24h ouvrees
+  4. Cadrage — rendez-vous et proposition chiffree
+
+Carte 3 — Contact direct
+  • Telephone: +212 661 473 617
+  • Email: Oilenergy025@gmail.com
+  • Bureau: 4 Rue Abou Ishaq Marouni, Casablanca
+
+
+--- FOOTER ---
+(identique)
+
+
+
+========================================================================
+PAGE 5 : CONFIRMATION (merci.html) — affichee apres envoi du devis
+========================================================================
+
+--- HEADER ---
+(identique aux autres pages)
+
+
+--- HERO DE CONFIRMATION ---
+Icone: grand checkmark vert anime
+
+Eyebrow: Demande recue
+Titre: Merci, votre demande a bien ete envoyee.
+Sous-titre: Un ingenieur OEEA a pris connaissance de votre demande et
+            vous recontactera sous 24 heures ouvrees avec une premiere
+            analyse.
+
+Reference unique: OEEA-XXXXXX (generee automatiquement a l'envoi)
+
+Boutons: Retour a l'accueil / Nous contacter
+
+
+--- TIMELINE DES PROCHAINES ETAPES ---
+Tag: La suite
+Titre: Prochaines etapes
+
+Etape 01 — Accuse de reception
+  Un email de confirmation vient de partir vers votre boite de reception
+  avec le recapitulatif de votre demande.
+
+Etape 02 — Analyse par un ingenieur
+  Nous affectons un ingenieur senior a votre dossier, choisi pour son
+  expertise dans le secteur et service concernes.
+
+Etape 03 — Retour sous 24h
+  L'ingenieur vous contacte (email ou telephone) pour affiner le besoin
+  et planifier la suite.
+
+Etape 04 — Proposition chiffree
+  Sous quelques jours, vous recevez une proposition detaillee avec
+  chiffrage, planning et livrables.
+
+
+--- BANDEAU URGENT ---
+Titre: Un projet urgent ?
+Sous-titre: Contactez-nous directement par telephone pour une reponse
+            immediate.
+Bouton: +212 661 473 617
+
+
+--- CONTINUEZ VOTRE DECOUVERTE ---
+Tag: En attendant
+Titre: Continuez votre decouverte
+
+Carte 1 — Nos services
+  5 domaines d'intervention, de l'etude a la maintenance.
+  CTA: Explorer
+
+Carte 2 — Nos secteurs
+  9 secteurs couverts, du petrole & gaz a l'environnement.
+  CTA: Explorer
+
+Carte 3 — Notre equipe
+  30+ ans d'experience cumulee au service de votre projet.
+  CTA: Decouvrir
+
+
+--- FOOTER ---
+(identique)
+
+
+
+========================================================================
+FIN DU CONTENU DU SITE
+========================================================================
+
+Pages du site (5 au total):
+  1. index.html       — Accueil (toutes les sections en one-page)
+  2. services.html    — Detail des 5 services
+  3. secteurs.html    — Detail des 9 secteurs
+  4. devis.html       — Formulaire de demande de devis (3 etapes)
+  5. merci.html       — Page de confirmation apres envoi
+
+Coordonnees OEEA:
+  Adresse : 4 Rue Abou Ishaq Marouni, Maarif — Casablanca, Maroc
+  Telephone : +212 661 473 617
+  Email : Oilenergy025@gmail.com
+  Fondateur : RAUCHDI Abderrahim — Fondateur & Directeur General
+  Annee de creation : 2025
+
