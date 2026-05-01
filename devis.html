@@ -76,8 +76,12 @@
             <div class="devis-grid">
                 <!-- Form -->
                 <div class="devis-form-card" data-animate="fade-up">
-                    <form class="devis-form" id="devisForm" action="send.php" method="POST" novalidate>
-                        <input type="hidden" name="form_type" value="devis">
+                    <form class="devis-form" id="devisForm" action="https://formsubmit.co/contact@oeea.ma" method="POST" novalidate>
+                        <input type="hidden" name="_subject" value="[Devis OEEA] Nouvelle demande de devis">
+                        <input type="hidden" name="_next" value="https://oeea.ma/merci.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
                         <!-- Step indicator -->
                         <div class="devis-progress">
                             <button type="button" class="devis-progress-step active" data-step-indicator="1"><span>1</span> Coordonnées</button>
@@ -489,7 +493,7 @@
                 });
             }
 
-            // Submit handler (final step) — validate consent then let the form POST to send.php
+            // Submit handler (final step) — validate consent then let the form POST to FormSubmit
             form.addEventListener('submit', (e) => {
                 const consent = document.getElementById('d-consent');
                 const consentWrap = form.querySelector('.devis-consent');
@@ -507,7 +511,7 @@
                     btn.disabled = true;
                     btn.style.opacity = '0.85';
                 }
-                // The form submits naturally to send.php; no preventDefault.
+                // The form submits naturally to FormSubmit; no preventDefault.
             });
 
             // Init

@@ -639,8 +639,12 @@
                 <div class="contact-form-wrapper" data-animate="fade-left">
                     <h3>Parlons de votre projet</h3>
                     <p>Décrivez brièvement vos besoins, nous revenons vers vous sous 24h.</p>
-                    <form class="contact-form" id="contactForm" action="send.php" method="POST">
-                        <input type="hidden" name="form_type" value="contact">
+                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/contact@oeea.ma" method="POST">
+                        <input type="hidden" name="_subject" value="[Contact OEEA] Nouveau message du site">
+                        <input type="hidden" name="_next" value="https://oeea.ma/merci.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
                         <div class="form-group">
                             <input type="text" id="name" name="name" required placeholder=" " autocomplete="name">
                             <label for="name">Nom complet</label>
