@@ -1797,6 +1797,15 @@ img { max-width: 100%; display: block; }
     .devis-badge { font-size: 0.62rem; padding: 6px 10px; gap: 6px; }
     .devis-upload-inner { gap: 6px; }
     .devis-upload-title { font-size: 0.84rem; }
+
+    /* Preloader / Opening animation */
+    .opener { gap: 18px; padding: 0 24px; max-width: 100vw; }
+    .opener-logo-group { flex-direction: column; gap: 12px; text-align: center; }
+    .opener-logo { width: 64px; }
+    .opener-line-1 { font-size: 1.35rem; letter-spacing: 2px; }
+    .opener-line-2 { font-size: 0.72rem; letter-spacing: 3px; }
+    .opener-tagline { font-size: 0.62rem; letter-spacing: 1.8px; text-align: center; padding: 0 12px; }
+    .opener-bar { width: 180px; }
 }
 
 /* Small phone */
