@@ -1799,18 +1799,23 @@ img { max-width: 100%; display: block; }
     .devis-upload-title { font-size: 0.84rem; }
 
     /* Preloader / Opening animation */
-    .opener { gap: 18px; padding: 0 24px; max-width: 100vw; }
-    .opener-logo-group { flex-direction: column; gap: 12px; text-align: center; }
-    .opener-logo { width: 64px; }
-    .opener-line-1 { font-size: 1.35rem; letter-spacing: 2px; }
-    .opener-line-2 { font-size: 0.72rem; letter-spacing: 3px; }
-    .opener-tagline { font-size: 0.62rem; letter-spacing: 1.8px; text-align: center; padding: 0 12px; }
-    .opener-bar { width: 180px; }
+    .opener { gap: 14px; padding: 0 20px; max-width: 100vw; }
+    .opener-logo-group { flex-direction: column; gap: 8px; text-align: center; }
+    .opener-logo { width: 50px; }
+    .opener-line-1 { font-size: 1.05rem; letter-spacing: 1.6px; }
+    .opener-line-2 { font-size: 0.6rem; letter-spacing: 2.4px; }
+    .opener-tagline { font-size: 0.5rem; letter-spacing: 1.4px; text-align: center; padding: 0 12px; }
+    .opener-bar { width: 140px; height: 1.5px; }
 }
 
 /* Small phone */
 @media (max-width: 420px) {
     .values-grid { grid-template-columns: 1fr; }
+    .opener-logo { width: 42px; }
+    .opener-line-1 { font-size: 0.92rem; letter-spacing: 1.4px; }
+    .opener-line-2 { font-size: 0.54rem; letter-spacing: 2px; }
+    .opener-tagline { font-size: 0.45rem; letter-spacing: 1.2px; }
+    .opener-bar { width: 120px; }
     .section { padding: 60px 0; }
 
     .hero-title { font-size: clamp(1.7rem, 11vw, 2.4rem); }
