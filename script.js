@@ -33,13 +33,31 @@ let heroContentAnimated = false;
 const easeInOutCubic = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
 
-function rafLoop() {
+// Auto-loop crossfade between the two background images (the "wall" animation)
+// Period = 12s total: 5s on img1, 1s fade, 5s on img2, 1s fade back
+const CROSSFADE_PERIOD = 12000;
+function bgCrossfadeLoop(t) {
+    if (bgImgPrimary && bgImgSecondary) {
+        const phase = (t % CROSSFADE_PERIOD) / CROSSFADE_PERIOD; // 0..1
+        let opacitySecondary;
+        if (phase < 5 / 12)        opacitySecondary = 0;
+        else if (phase < 6 / 12)   opacitySecondary = (phase - 5 / 12) * 12;       // fade in
+        else if (phase < 11 / 12)  opacitySecondary = 1;
+        else                       opacitySecondary = 1 - (phase - 11 / 12) * 12;  // fade out
+        bgImgPrimary.style.opacity = 1 - opacitySecondary;
+        bgImgSecondary.style.opacity = opacitySecondary;
+    }
+}
+
+function rafLoop(t) {
     // Mouse parallax on background
     smoothX += (mouseX - smoothX) * 0.05;
     smoothY += (mouseY - smoothY) * 0.05;
 
     const bgTransform = `scale(${bgScale}) translate(${smoothX * -5}px, ${smoothY * -3}px)`;
     bgImgs.forEach(img => { img.style.transform = bgTransform; });
+
+    bgCrossfadeLoop(t || performance.now());
 
     requestAnimationFrame(rafLoop);
 }
@@ -56,7 +74,10 @@ if (!reducedMotion) {
         mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
         mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
     });
-    rafLoop();
+    rafLoop(performance.now());
+} else {
+    // Run a single frame so the bg crossfade still applies once
+    rafLoop(0);
 }
 
 // ===== HERO CANVAS - Particle Network =====
