@@ -34,52 +34,7 @@ const easeInOutCubic = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3
 const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
 
 function rafLoop() {
-    if (heroWrapper && heroContentWrapper) {
-        const rect = heroWrapper.getBoundingClientRect();
-        const scrolled = -rect.top;
-        const vh = window.innerHeight;
-        const progress = Math.max(0, Math.min(1, scrolled / vh));
-
-        // DOORS: start opening at 0.05, fully open at 0.78
-        const doorP = Math.max(0, Math.min(1, (progress - 0.05) / 0.73));
-        const doorEased = easeInOutCubic(doorP);
-        const angle = 112 * doorEased;
-        if (heroDoorLeft) heroDoorLeft.style.transform = `rotateY(${-angle}deg)`;
-        if (heroDoorRight) heroDoorRight.style.transform = `rotateY(${angle}deg)`;
-
-        // SEAM glow: sine peak around progress 0.14 (as doors crack)
-        if (heroDoorSeam) {
-            const sP = Math.max(0, Math.min(1, progress / 0.28));
-            heroDoorSeam.style.opacity = Math.sin(sP * Math.PI);
-        }
-
-        // CONTENT reveal: fades in from 0.48 → 0.85
-        const contentP = Math.max(0, Math.min(1, (progress - 0.48) / 0.37));
-        const contentEased = easeOutCubic(contentP);
-        heroContentWrapper.style.opacity = contentEased;
-        heroContentWrapper.style.transform = `translateY(${(1 - contentEased) * 24}px)`;
-
-        // Trigger title word stagger once content starts revealing
-        if (contentP > 0.05 && !heroContentAnimated) {
-            heroContentAnimated = true;
-            animateHero();
-        }
-
-        // BG zoom (walking-in effect): 1.05 → 1.22
-        bgScale = 1.05 + progress * 0.17;
-
-        // BG crossfade: primary (with logo) visible 0 → 0.48, crossfade to secondary 0.48 → 0.72
-        if (bgImgPrimary && bgImgSecondary) {
-            const swapP = Math.max(0, Math.min(1, (progress - 0.48) / 0.24));
-            bgImgPrimary.style.opacity = 1 - swapP;
-            bgImgSecondary.style.opacity = swapP;
-        }
-
-        // Scroll cue fades
-        if (heroScroll) heroScroll.style.opacity = Math.max(0, 1 - progress * 4);
-    }
-
-    // Mouse parallax
+    // Mouse parallax on background
     smoothX += (mouseX - smoothX) * 0.05;
     smoothY += (mouseY - smoothY) * 0.05;
 
@@ -89,19 +44,19 @@ function rafLoop() {
     requestAnimationFrame(rafLoop);
 }
 
+// Reveal hero content immediately (no scroll-driven door animation)
+if (heroContentWrapper) {
+    heroContentWrapper.style.opacity = '1';
+    heroContentWrapper.style.transform = 'none';
+}
+animateHero();
+
 if (!reducedMotion) {
     document.addEventListener('mousemove', (e) => {
         mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
         mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
     });
     rafLoop();
-} else {
-    // Reveal content immediately if reduced motion
-    if (heroContentWrapper) {
-        heroContentWrapper.style.opacity = '1';
-        heroContentWrapper.style.transform = 'none';
-    }
-    animateHero();
 }
 
 // ===== HERO CANVAS - Particle Network =====

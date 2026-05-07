@@ -141,7 +141,7 @@ img { max-width: 100%; display: block; }
 
 /* ===== HERO (scroll-driven doors + reveal) ===== */
 .hero-wrapper {
-    height: 220vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -270,7 +270,7 @@ img { max-width: 100%; display: block; }
     pointer-events: none;
 }
 
-/* Revealed content wrapper (centered, appears as doors open) */
+/* Hero content wrapper (centered, visible immediately) */
 .hero-content-wrapper {
     position: absolute;
     inset: 0;
@@ -279,7 +279,7 @@ img { max-width: 100%; display: block; }
     align-items: center;
     justify-content: center;
     padding: 90px 24px 80px;
-    will-change: transform, opacity;
+    opacity: 1;
 }
 
 .hero-content {
@@ -1669,7 +1669,7 @@ img { max-width: 100%; display: block; }
     .contact-form-wrapper { padding: 28px 22px; }
     .footer-grid { grid-template-columns: 1fr; gap: 32px; padding-bottom: 36px; }
 
-    .hero-wrapper { height: 180vh; }
+    .hero-wrapper { height: 100vh; }
     .hero-content-wrapper { padding: 90px 20px 40px; }
     .hero-title { font-size: clamp(2rem, 9vw, 3.4rem); letter-spacing: -1px; }
     .hero-slogan { font-size: 0.95rem; }
@@ -1738,7 +1738,7 @@ img { max-width: 100%; display: block; }
     .dropcap { font-size: 2.6rem; padding: 3px 8px 0 0; }
     .about-story-heading { font-size: clamp(1.25rem, 5vw, 1.75rem); }
 
-    .hero-wrapper { height: 160vh; }
+    .hero-wrapper { height: 100vh; }
     .hero-content-wrapper { padding: 86px 18px 36px; }
     .hero-content { gap: 20px; }
     .hero-title { font-size: clamp(1.85rem, 10vw, 2.8rem); line-height: 1.08; }
