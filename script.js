@@ -34,16 +34,18 @@ const easeInOutCubic = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3
 const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
 
 // Auto-loop crossfade between the two background images (the "wall" animation)
-// Period = 12s total: 5s on img1, 1s fade, 5s on img2, 1s fade back
+// Always starts with the logo image (primary), then alternates every 5s with 1s crossfade.
 const CROSSFADE_PERIOD = 12000;
+const crossfadeStart = performance.now();
 function bgCrossfadeLoop(t) {
     if (bgImgPrimary && bgImgSecondary) {
-        const phase = (t % CROSSFADE_PERIOD) / CROSSFADE_PERIOD; // 0..1
+        const elapsed = t - crossfadeStart;
+        const phase = (elapsed % CROSSFADE_PERIOD) / CROSSFADE_PERIOD; // 0..1
         let opacitySecondary;
-        if (phase < 5 / 12)        opacitySecondary = 0;
-        else if (phase < 6 / 12)   opacitySecondary = (phase - 5 / 12) * 12;       // fade in
-        else if (phase < 11 / 12)  opacitySecondary = 1;
-        else                       opacitySecondary = 1 - (phase - 11 / 12) * 12;  // fade out
+        if (phase < 5 / 12)        opacitySecondary = 0;                            // 0-5s: logo image only
+        else if (phase < 6 / 12)   opacitySecondary = (phase - 5 / 12) * 12;        // 5-6s: fade to no-logo
+        else if (phase < 11 / 12)  opacitySecondary = 1;                            // 6-11s: no-logo image
+        else                       opacitySecondary = 1 - (phase - 11 / 12) * 12;   // 11-12s: fade back to logo
         bgImgPrimary.style.opacity = 1 - opacitySecondary;
         bgImgSecondary.style.opacity = opacitySecondary;
     }
